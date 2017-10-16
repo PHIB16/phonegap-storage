@@ -19,6 +19,6 @@ window.localStorage.setItem(
 );
 
     $("#age").text(window.localStorage.GetItem("age");
-	$("#email").window.localStorage.GetItem("email");
-	$("#Name").window.localStorage.GetItem("Name");
+	$("#email").text(window.localStorage.GetItem("email");
+	$("#Name").text(window.localStorage.GetItem("Name");
 updateDisplay();
