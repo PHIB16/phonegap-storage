@@ -21,4 +21,4 @@ window.localStorage.setItem(
 
 var test = window.localStorage.GetItem("Name");
 
-window.alert("sometext");
+window.alert($test);
