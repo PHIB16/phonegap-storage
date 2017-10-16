@@ -16,7 +16,7 @@ window.localStorage.setItem(
 
 );
 
-var test = window.localStorage.GetItem("Name");
+var test = window.localStorage.GetItem("age");
 
 alert(test);
 window.alert(test);
