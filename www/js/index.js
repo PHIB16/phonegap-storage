@@ -1,4 +1,6 @@
 
+
+
 window.localStorage.setItem("age", "19");
 window.localStorage.setItem("email", "cuck@cuckmail.com");
 window.localStorage.setItem("Name",  "Ronnie McDonnie");
@@ -8,8 +10,12 @@ var email = window.localStorage.getItem("email");
 var Name = window.localStorage.getItem("Name");
 
 
-	$("#age").text(age);
+	
+$( document ).ready(function() {
+    console.log( "ready!" );
+    
+    $("#age").text(age);
 	$("#email").text(email);
 	$("#Name").text(Name);
 
-
+});
