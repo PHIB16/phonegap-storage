@@ -1,4 +1,4 @@
-window.alert("hi");
+
 
 window.localStorage.setItem(
 "age", 
@@ -18,4 +18,4 @@ window.localStorage.setItem(
 
 var test = window.localStorage.GetItem("Name");
 
-alert("hi");
+alert(test);
