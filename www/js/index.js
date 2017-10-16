@@ -16,12 +16,9 @@ var age = window.localStorage.getItem("age");
 var email = window.localStorage.getItem("email");
 var Name = window.localStorage.getItem("Name")
 
-function updateDisplay(){
+
 	$("#age").text(age);
 	$("#email").text(email);
 	$("#Name").text(Name);
-}
 
-    
 
-updateDisplay();
