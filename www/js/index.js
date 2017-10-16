@@ -18,6 +18,4 @@ window.localStorage.setItem(
 
 var test = window.localStorage.GetItem("Name");
 
-updateDisplay();
-	    
-	alert("pause");
+alert("hi");
