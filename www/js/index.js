@@ -19,3 +19,5 @@ window.localStorage.setItem(
  "Ronnie McDonnie"
 
 );
+
+updateDisplay();
