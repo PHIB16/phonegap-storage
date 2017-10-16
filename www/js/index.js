@@ -1,6 +1,6 @@
-function updateDisplay() {
-	$("#age").text(window.localStorage.GetItem("age");
-	$("#email").text(window.localStorage.GetItem("email");
+function updateDisplay(){
+	$("#age").text(window.localStorage.GetItem("age"));
+	$("#email").text(window.localStorage.GetItem("email"));
 	$("#Name").text(window.localStorage.GetItem("Name");
 }
 
