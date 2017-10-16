@@ -1,7 +1,7 @@
 function updateDisplay(){
 	$("#age").text(window.localStorage.GetItem("age"));
 	$("#email").text(window.localStorage.GetItem("email"));
-	$("#Name").text(window.localStorage.GetItem("Name");
+	$("#Name").text(window.localStorage.GetItem("Name"));
 }
 
 window.localStorage.setItem(
