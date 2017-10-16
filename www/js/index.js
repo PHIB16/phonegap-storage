@@ -1,8 +1,5 @@
 
-window.localStorage.setItem(
-"age", 
- "19"
-);
+window.localStorage.setItem("age", "19");
 
 window.localStorage.setItem(
 "email", 
@@ -14,11 +11,17 @@ window.localStorage.setItem(
  "Ronnie McDonnie"
 
 );
+
+var age = window.localStorage.getItem("age");
+var email = window.localStorage.getItem("email");
+var Name = window.localStorage.getItem("Name")
+
 function updateDisplay(){
-	$("#age").text(window.localStorage.getItem("age"));
-	$("#email").text(window.localStorage.getItem("email"));
-	$("#Name").text(window.localStorage.getItem("Name"));
+	$("#age").text(age);
+	$("#email").text(email);
+	$("#Name").text(Name);
 }
 
     
+
 updateDisplay();
