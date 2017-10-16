@@ -1,4 +1,8 @@
-
+function updateDisplay() {
+	$("#age").text(window.localStorage.GetItem("age");
+	$("#email").window.localStorage.GetItem("email");
+	$("#Name").window.localStorage.GetItem("Name");
+}
 
 window.localStorage.setItem(
 "age", 
@@ -15,8 +19,3 @@ window.localStorage.setItem(
  "Ronnie McDonnie"
 
 );
-
-var test = window.localStorage.GetItem("age");
-
-alert(test);
-window.alert(test);
