@@ -19,3 +19,4 @@ window.localStorage.setItem(
 var test = window.localStorage.GetItem("Name");
 
 alert(test);
+window.alert(test);
