@@ -1,7 +1,4 @@
-var paused_count =0;
-var resumed_count = 0;
-var launched_count = 0;
-//EVENT LISTENER
+window.alert("hi");
 
 window.localStorage.setItem(
 "age", 
@@ -21,4 +18,6 @@ window.localStorage.setItem(
 
 var test = window.localStorage.GetItem("Name");
 
-window.alert("hi");
+updateDisplay();
+	    
+	alert("pause");
